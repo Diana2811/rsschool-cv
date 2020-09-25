@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Arial', sans-serif;
+     background-image: url('/img/bg_4.jpg') ;
+     background-repeat: no-repeat;
+  }
+  .container{
+   max-width: 1024px;
+   width: 100%;
+   padding: 0 50px;
+   margin: 0 auto;
+  }
+  header{
+     width: 100%;
+     padding: 50px;
+  }
+  .header_block{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+  }
+  img{
+     border-radius: 100%;
+     width: 90%;   
+  }
+  h1{
+     text-align: center;
+     color: rgb(86, 65, 105);
+  }
+  h2{
+     text-align: center;
+     color: rgb(59, 55, 53);
+     padding: 10px 0 30px 0;
+     text-transform: uppercase;
+  }
+  h3{
+     font-size: 25px; 
+   text-align: center;
+   padding-bottom: 10px;
+}
+.contackts_item, .footer_social{
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+   justify-content: space-around;
+   
+}
+.contackts_items, .social_icon{
+   font-size: 30px;
+   padding-left: 50px;
+   color: rgb(34, 124, 124);
+}
+a{
+   text-decoration: none;
+   color: #000000;
+}
+.about{padding: 70px ;}
+.wrapper{
+   max-width: 1024px;
+   display: flex;
+   justify-content:space-between;
+   text-align: center;
+}
+.my_skills{
+   font-size: 20px;
+   text-align: left;
+   font-weight: 400;
+   line-height: 30px;
+   flex-basis: 20%;
+   
+}
+.skills_list{
+   list-style-type: square;
+}
+.about_my{
+   flex-basis: 50%;
+   padding: 0 20px 0 20px;
+
+}
+.about_my_descr{
+   font-size: 25px;
+}
+.languages{
+   flex-basis:20%;
+   font-size: 20px;
+}
+.languages_items{
+   list-style-type: square;
+   font-size: 20px;
+}
+p{
+   font-size: 24px;
+   font-family: Helvetica;
+   font-weight: 500;
+}
+.expirianse{
+   padding-top: 30px;
+}
+.my_progeckt{
+   list-style-type: none;
+   font-size: 20px;
+}
+h4{
+   font-size: 23px;
+   padding: 10px 0 10px 0;
+}
+
+.footer_social{
+   justify-content: center;
+   padding: 20px;
+}
+.footer_social i{
+   font-size: 40px;
+}
